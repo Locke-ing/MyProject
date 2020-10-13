@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FileSearch1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FileSearch1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FileSearch" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.belerweb:pinyin4j:2.5.1" />
+          <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.28.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="FileSearch/web/Web" />
+    </root>
+  </artifact>
+</component>
